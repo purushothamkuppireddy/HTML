@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Candidate information</title>
+
+    </head>
+    <body>
+       
+        <form method="GET" action="tenor.gif">
+            <table align=center border="1" style="background-color: rgb(148, 194, 194);">
+                <caption><h1>Candidate Information</h1></caption>
+                <tr>
+                    <td>Name:<span style="color: rgb(223, 13, 13)"><sup>*</sup></span></td>
+                    <td> <input type="text"required></td>
+                </tr>
+                <tr>
+                    <td>Password:<span style="color: rgb(223, 13, 13)"><sup>*</sup></span></td>
+                    <td><input type="password"required></td>
+                </tr>
+                <tr>
+                    <td>Phone Number:<span style="color: rgb(223, 13, 13)"><sup>*</sup></span></td>
+                    <td><input type="number"required></td>
+                </tr>
+                <tr>
+                    <td>Gender:<span style="color: rgb(223, 13, 13)"><sup>*</sup></span></td>
+                    <td><input type="radio" required name="gender" value="Male">Male <input type="radio" required name="gender" value="Female">Female<br></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth:<span style="color: rgb(223, 13, 13)"><sup>*</sup></span></td>
+                    <td><input type="date"required></td>
+                </tr>
+                <tr>
+                    <td>Email:<span style="color: rgb(223, 13, 13)"><sup>*</sup></span></td>
+                    <td><input type="email" required></td>
+                </tr>
+                <tr>
+                    <td>Highest Qualification:<span style="color: rgb(223, 13, 13)"><sup>*</sup></span></td>
+                    <td><select ><option selected disabled>Select Highest Qualification</option>
+                            <option >Btech</option>
+                            <option>mtech</option>
+                            <option>Inter</option>
+                            <option>ssc</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Courses Intrested in:<span style="color: rgb(223, 13, 13)"><sup>*</sup></span></td>
+                    <td><input type="checkbox" value="Java">Java
+                        <input type="checkbox" value="HTML5">HTML5
+                        <input type="checkbox" value="CSS 3">CSS 3
+                        <input type="checkbox" value="Angular Js">Angular Js
+                        <input type="checkbox" value="JQuery">JQuery
+                    </td>
+                </tr>
+                <tr>
+                    <td>Comments:(Mention External Certification if any)</td>
+                    <td><textarea rows="3" cols="70"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Upload Degree/External Certificates:<span style="color: rgb(223, 13, 13)"><sup>*</sup></span></td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="submit Information">
+                    <input type="reset" value="clear"></td>
+                </tr>
+               
+
+            </table>
+
+        </form>
+        <span style="color: rgb(255, 6, 6); text-align:center"><h4>All fields marked(*) are mandatory</h4></span> 
+    </body>
+</html>
